@@ -5,7 +5,7 @@ function App() {
 const [text, setText]=useState('Type or copy in text here to be read out')
 
   return (
-    <div className="flex flex-col bg-blue-100 h-screen justify-center items-center content-center px-32 font-serif">
+    <div className="flex flex-col bg-blue-100 h-screen justify-center items-center content-center px-32 py-8 font-serif">
       <SpeechNarrator text={text}/>
       <textarea
         rows='10'

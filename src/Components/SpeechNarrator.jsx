@@ -52,7 +52,7 @@ export default function SpeechNarrator(props) {
      }
 
   return (
-    <div className='flex flex-col gap-y-5 items-center content-center justify-center mb-8'>
+    <div className='flex flex-col gap-y-5 items-center content-center justify-center mb-8 text-center'>
       <h1 className='text-4xl'>Speech Narrator</h1>
       {showPlay? (<AiFillRobot className='text-8xl cursor-pointer' onClick={handlePause} />):
       (<AiOutlineRobot className='text-8xl cursor-pointer' onClick={handlePlay} />)}
